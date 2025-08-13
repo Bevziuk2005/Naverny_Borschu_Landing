@@ -1,0 +1,1526 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <title>exported project</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta property="twitter:card" content="summary_large_image" />
+
+    <style data-tag="reset-style-sheet">
+      html {  line-height: 1.15;}body {  margin: 0;}* {  box-sizing: border-box;  border-width: 0;  border-style: solid;  -webkit-font-smoothing: antialiased;}p,li,ul,pre,div,h1,h2,h3,h4,h5,h6,figure,blockquote,figcaption {  margin: 0;  padding: 0;}button {  background-color: transparent;}button,input,optgroup,select,textarea {  font-family: inherit;  font-size: 100%;  line-height: 1.15;  margin: 0;}button,select {  text-transform: none;}button,[type="button"],[type="reset"],[type="submit"] {  -webkit-appearance: button;  color: inherit;}button::-moz-focus-inner,[type="button"]::-moz-focus-inner,[type="reset"]::-moz-focus-inner,[type="submit"]::-moz-focus-inner {  border-style: none;  padding: 0;}button:-moz-focus,[type="button"]:-moz-focus,[type="reset"]:-moz-focus,[type="submit"]:-moz-focus {  outline: 1px dotted ButtonText;}a {  color: inherit;  text-decoration: inherit;}input {  padding: 2px 4px;}img {  display: block;}details {  display: block;  margin: 0;  padding: 0;}summary::-webkit-details-marker {  display: none;}[data-thq="accordion"] [data-thq="accordion-content"] {  max-height: 0;  overflow: hidden;  transition: max-height 0.3s ease-in-out;  padding: 0;}[data-thq="accordion"] details[data-thq="accordion-trigger"][open] + [data-thq="accordion-content"] {  max-height: 1000vh;}details[data-thq="accordion-trigger"][open] summary [data-thq="accordion-icon"] {  transform: rotate(180deg);}html { scroll-behavior: smooth  }
+    </style>
+    <style data-tag="default-style-sheet">
+      html {
+        font-family: Inter;
+        font-size: 16px;
+      }
+
+      body {
+        font-weight: 400;
+        font-style:normal;
+        text-decoration: none;
+        text-transform: none;
+        letter-spacing: normal;
+        line-height: 1.15;
+        color: var(--dl-color-theme-neutral-dark);
+        background: var(--dl-color-theme-neutral-light);
+
+        fill: var(--dl-color-theme-neutral-dark);
+      }
+    </style>
+    <!-- Animate.css (optional animation utilities for micro-interactions) -->
+    <link rel="stylesheet" href="https://unpkg.com/animate.css@4.1.1/animate.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=STIX+Two+Text:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap"
+      data-tag="font"
+    />
+    <!-- TeleportHQ base (reset/utilities used by exported layout) -->
+    <link rel="stylesheet" href="https://unpkg.com/@teleporthq/teleport-custom-scripts/dist/style.css" />
+  </head>
+  <body>
+    <!-- Base tokens, viewport rules and shared typography -->
+    <link rel="stylesheet" href="./base.css" />
+    <div>
+      <!-- Page-specific layout (absolute canvas) -->
+      <link href="./index.css" rel="stylesheet" />
+
+      <!-- Кореневий контейнер сторінки: скрол та центрування «полотна» -->
+      <div class="finallandingmob-container1">
+        <div class="finallandingmob-finallandingmob">
+          <!-- Фіксоване «полотно» макету 375×5129, усі елементи всередині -->
+          <div class="finallandingmob-background">
+            <img
+              src="public/screenshot20250629at21582812966-g93-600h.png"
+              alt="Screenshot20250629at21582812966"
+              class="finallandingmob-screenshot20250629at2158281"
+            />
+            <img
+              src="public/rectangle2742966-sz2a-400w.png"
+              alt="Rectangle2742966"
+              class="finallandingmob-rectangle274"
+            />
+            <img
+              src="public/line1222966-yb1o.svg"
+              alt="Line1222966"
+              class="finallandingmob-line122"
+            />
+          </div>
+          <div class="finallandingmob-home-indicator1">
+            <img
+              src="public/homeindicator2966-iyip-200h.png"
+              alt="HomeIndicator2966"
+              class="finallandingmob-home-indicator2"
+            />
+          </div>
+
+          <!-- Хедер: логотип та меню -->
+          <div class="finallandingmob-header">
+            <div class="finallandingmob-logo1">
+              <img
+                src="public/logo2966-8hkj.svg"
+                alt="Logo2966"
+                class="finallandingmob-logo2"
+              />
+              <span class="finallandingmob-text101">Naverny Borshchu</span>
+            </div>
+            <img
+              src="public/menu2966-oqf6.svg"
+              alt="menu2966"
+              class="finallandingmob-menu"
+            />
+          </div>
+          <!-- Головний заголовок і головна кнопка (Hero) -->
+          <button class="finallandingmob-title-button">
+            <div class="finallandingmob-frame1139">
+              <span class="finallandingmob-text102 LandingMobh1">
+                Знайди свій
+              </span>
+              <span class="finallandingmob-text103 LandingMobh1">
+                ідеальний смак
+              </span>
+              <span class="finallandingmob-text104 LandingMobh1Mak">Борщу</span>
+            </div>
+            <div class="finallandingmob-mobile1">
+              <div class="finallandingmob-frame10031">
+                <div class="finallandingmob-frame7611">
+                  <span class="finallandingmob-text105 LandingMobButton">
+                    Шукати Борщик
+                  </span>
+                </div>
+              </div>
+            </div>
+          </button>
+          <!-- Міні-карточки з оцінками (м'ясовитість/буряковість) -->
+          <div class="finallandingmob-group1000004176">
+            <div class="finallandingmob-frame1028">
+              <div class="finallandingmob-frame10251">
+                <div class="finallandingmob-frame10241">
+                  <img
+                    src="public/meat12966-b55b.svg"
+                    alt="meat12966"
+                    class="finallandingmob-meat11"
+                  />
+                  <span class="finallandingmob-text106">7/10</span>
+                </div>
+                <div class="finallandingmob-point1">
+                  <span class="finallandingmob-text107">М’ясовитість</span>
+                  <div class="finallandingmob-contentwithicon1">
+                    <div class="finallandingmob-frame9441">
+                      <div class="finallandingmob-frame9451">
+                        <div class="finallandingmob-frame8721">
+                          <img
+                            src="public/snakebar2966-f81id-200h.png"
+                            alt="snakebar2966"
+                            class="finallandingmob-snakebar1"
+                          />
+                          <img
+                            src="public/snakebar2966-4d64-200h.png"
+                            alt="snakebar2966"
+                            class="finallandingmob-snakebar2"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="finallandingmob-frame1023">
+              <div class="finallandingmob-frame10252">
+                <div class="finallandingmob-frame10242">
+                  <img
+                    src="public/beetroot212966-8ck.svg"
+                    alt="beetroot212966"
+                    class="finallandingmob-beetroot211"
+                  />
+                  <span class="finallandingmob-text108 LandingMobcaption1">
+                    7/10
+                  </span>
+                </div>
+                <div class="finallandingmob-point2">
+                  <span class="finallandingmob-text109 LandingMobfootnote">
+                    Буряковість
+                  </span>
+                  <div class="finallandingmob-contentwithicon2">
+                    <div class="finallandingmob-frame9442">
+                      <div class="finallandingmob-frame9452">
+                        <div class="finallandingmob-frame8722">
+                          <img
+                            src="public/snakebar2966-sxom-200h.png"
+                            alt="snakebar2966"
+                            class="finallandingmob-snakebar3"
+                          />
+                          <img
+                            src="public/snakebar2966-4wki-200h.png"
+                            alt="snakebar2966"
+                            class="finallandingmob-snakebar4"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Ілюстрація екрана телефону -->
+          <img
+            src="public/iphonescreen2966-hx2-400h.png"
+            alt="Iphonescreen2966"
+            class="finallandingmob-iphonescreen"
+          />
+          <div class="finallandingmob-frame1041">
+            <div class="finallandingmob-frame1032">
+              <div class="finallandingmob-frame1031">
+                <span class="finallandingmob-text110 LandingMobfootnote">
+                  Вид м’яса
+                </span>
+                <div class="finallandingmob-type">
+                  <div class="finallandingmob-tag1">
+                    <div class="finallandingmob-iconandtext1">
+                      <span class="finallandingmob-text111 LandingMobcaption1">
+                        Курка
+                      </span>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-tag2">
+                    <div class="finallandingmob-iconandtext2">
+                      <span class="finallandingmob-text112 LandingMobcaption1">
+                        Свинина
+                      </span>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-tag3">
+                    <div class="finallandingmob-iconandtext3">
+                      <span class="finallandingmob-text113 LandingMobcaption1">
+                        Телятина
+                      </span>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-tag4">
+                    <div class="finallandingmob-iconandtext4">
+                      <span class="finallandingmob-text114 LandingMobcaption1">
+                        Без м’яса
+                      </span>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-tag5">
+                    <div class="finallandingmob-iconandtext5">
+                      <span class="finallandingmob-text115 LandingMobcaption1">
+                        Інше
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="finallandingmob-frame1039">
+            <div class="finallandingmob-group3">
+              <div class="finallandingmob-frame10301">
+                <img
+                  src="public/union2966-44p.svg"
+                  alt="Union2966"
+                  class="finallandingmob-union1"
+                />
+              </div>
+              <div class="finallandingmob-frame9461">
+                <img
+                  src="public/frame9442966-7fj8.svg"
+                  alt="Frame9442966"
+                  class="finallandingmob-frame9443"
+                />
+                <span class="finallandingmob-text116 LandingMobcaption1">
+                  4.5
+                </span>
+              </div>
+            </div>
+          </div>
+          <div class="finallandingmob-frame1163">
+            <div class="finallandingmob-rate1">
+              <span class="finallandingmob-text117">8.5</span>
+              <div class="finallandingmob-soup">
+                <div class="finallandingmob-lsiconsoupfilled1">
+                  <div class="finallandingmob-group1">
+                    <img
+                      src="public/vector2966-tnbj.svg"
+                      alt="Vector2966"
+                      class="finallandingmob-vector10"
+                    />
+                    <img
+                      src="public/vector2966-jkb.svg"
+                      alt="Vector2966"
+                      class="finallandingmob-vector11"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Блок статистики (100+, 1st, 800+) -->
+          <div class="finallandingmob-frame1147">
+            <div class="finallandingmob-frame1051">
+              <div class="finallandingmob-frame10451">
+                <div class="finallandingmob-frame10452">
+                  <div class="finallandingmob-frame10431">
+                    <div class="finallandingmob-frame10421">
+                      <img
+                        src="public/ellipse82966-atvn-200h.png"
+                        alt="Ellipse82966"
+                        class="finallandingmob-ellipse81"
+                      />
+                      <img
+                        src="public/ellipse72966-tzd9-200h.png"
+                        alt="Ellipse72966"
+                        class="finallandingmob-ellipse71"
+                      />
+                      <img
+                        src="public/ellipse62966-jc3ii-200h.png"
+                        alt="Ellipse62966"
+                        class="finallandingmob-ellipse61"
+                      />
+                    </div>
+                  </div>
+                  <span class="finallandingmob-text118 LandingMobh2Mak">
+                    100+
+                  </span>
+                </div>
+                <span class="finallandingmob-text119 LandingMobbody">
+                  Продегустовано більше 100 Борщів
+                </span>
+              </div>
+            </div>
+            <div class="finallandingmob-frame1145">
+              <div class="finallandingmob-frame10453">
+                <div class="finallandingmob-frame1044">
+                  <img
+                    src="public/touch12966-107a-200h.png"
+                    alt="touch12966"
+                    class="finallandingmob-touch1"
+                  />
+                  <span class="finallandingmob-text120 LandingMobh2Mak">
+                    1st
+                  </span>
+                </div>
+                <span class="finallandingmob-text121 LandingMobbody">
+                  Веб-додаток для поціновувачів Борщу
+                </span>
+              </div>
+            </div>
+            <div class="finallandingmob-frame1146">
+              <div class="finallandingmob-frame10454">
+                <div class="finallandingmob-frame10455">
+                  <div class="finallandingmob-frame10432">
+                    <div class="finallandingmob-frame10422">
+                      <img
+                        src="public/ellipse82966-1uim-200h.png"
+                        alt="Ellipse82966"
+                        class="finallandingmob-ellipse82"
+                      />
+                      <img
+                        src="public/ellipse72966-cm35-200h.png"
+                        alt="Ellipse72966"
+                        class="finallandingmob-ellipse72"
+                      />
+                      <img
+                        src="public/ellipse62966-yffb-200h.png"
+                        alt="Ellipse62966"
+                        class="finallandingmob-ellipse62"
+                      />
+                    </div>
+                  </div>
+                  <span class="finallandingmob-text122 LandingMobh2Mak">
+                    800+
+                  </span>
+                </div>
+                <span class="finallandingmob-text123 LandingMobbody">
+                  Кількість поціновувачів
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- Розділ: критерії оцінювання -->
+          <span class="finallandingmob-text124 LandingMobh2">Як оцінюємо?</span>
+          <div class="finallandingmob-frame1160">
+            <div class="finallandingmob-frame1157">
+              <div class="finallandingmob-frame1150">
+                <div class="finallandingmob-frame11491">
+                  <img
+                    src="public/meat12966-t2m.svg"
+                    alt="meat12966"
+                    class="finallandingmob-meat12"
+                  />
+                  <span class="finallandingmob-text125 LandingMobh4">
+                    М’ясовитість
+                  </span>
+                </div>
+                <span class="finallandingmob-text126 LandingMobCaption2">
+                  Скільки м’яса і чи воно добре приготоване
+                </span>
+              </div>
+              <div class="finallandingmob-frame1151">
+                <div class="finallandingmob-frame11492">
+                  <img
+                    src="public/beetroot212966-5jtq.svg"
+                    alt="beetroot212966"
+                    class="finallandingmob-beetroot212"
+                  />
+                  <span class="finallandingmob-text127 LandingMobh4">
+                    Буряковість
+                  </span>
+                </div>
+                <span class="finallandingmob-text128 LandingMobCaption2">
+                  Чи яскраво відчувається буряк
+                </span>
+              </div>
+            </div>
+            <div class="finallandingmob-frame1158">
+              <div class="finallandingmob-frame1152">
+                <div class="finallandingmob-frame11493">
+                  <img
+                    src="public/salt12966-d1t.svg"
+                    alt="salt12966"
+                    class="finallandingmob-salt1"
+                  />
+                  <span class="finallandingmob-text129 LandingMobh4">
+                    Солоність
+                  </span>
+                </div>
+                <span class="finallandingmob-text130 LandingMobCaption2">
+                  Чи добре збалансована солоність
+                </span>
+              </div>
+              <div class="finallandingmob-frame1153">
+                <div class="finallandingmob-frame11494">
+                  <img
+                    src="public/vegetable12966-zw7q.svg"
+                    alt="vegetable12966"
+                    class="finallandingmob-vegetable11"
+                  />
+                  <span class="finallandingmob-text131 LandingMobh4">
+                    Густина
+                  </span>
+                </div>
+                <span class="finallandingmob-text132 LandingMobCaption2">
+                  Наскільки борщ наваристий
+                </span>
+              </div>
+            </div>
+            <div class="finallandingmob-frame1159">
+              <div class="finallandingmob-frame1155">
+                <div class="finallandingmob-frame11495">
+                  <img
+                    src="public/tongue12966-oqs.svg"
+                    alt="tongue12966"
+                    class="finallandingmob-tongue1"
+                  />
+                  <span class="finallandingmob-text133 LandingMobh4">
+                    Післясмак
+                  </span>
+                </div>
+                <span class="finallandingmob-text134">
+                  Чи залишається приємний смак після
+                </span>
+              </div>
+              <div class="finallandingmob-frame1154">
+                <div class="finallandingmob-frame11496">
+                  <img
+                    src="public/vegetable12966-wzb.svg"
+                    alt="vegetable12966"
+                    class="finallandingmob-vegetable12"
+                  />
+                  <span class="finallandingmob-text135 LandingMobh4">
+                    Подача
+                  </span>
+                </div>
+                <span class="finallandingmob-text136 LandingMobCaption2">
+                  Чи виглядає апетитно, охайно, які має додатки
+                </span>
+              </div>
+            </div>
+            <div class="finallandingmob-frame1156">
+              <div class="finallandingmob-frame11497">
+                <img
+                  src="public/spoon12966-9d1k.svg"
+                  alt="spoon12966"
+                  class="finallandingmob-spoon1"
+                />
+                <span class="finallandingmob-text137 LandingMobh4">
+                  Загальна оцінка
+                </span>
+              </div>
+              <span class="finallandingmob-text138 LandingMobCaption2">
+                Наскільки борщ сподобався загалом
+              </span>
+            </div>
+          </div>
+          <!-- Декоративна крапля борщу -->
+          <img
+            src="public/borschdrop2966-1hky.svg"
+            alt="Borschdrop2966"
+            class="finallandingmob-borschdrop"
+          />
+          <!-- Плашка з оцінкою (4.5) ліворуч від краплі -->
+          <div class="finallandingmob-frame1161">
+            <div class="finallandingmob-frame10302">
+              <img
+                src="public/union2966-b0kh.svg"
+                alt="Union2966"
+                class="finallandingmob-union2"
+              />
+            </div>
+            <div class="finallandingmob-frame9462">
+              <img
+                src="public/frame9442966-qwr.svg"
+                alt="Frame9442966"
+                class="finallandingmob-frame9444"
+              />
+              <span class="finallandingmob-text139">4.5</span>
+            </div>
+          </div>
+          <!-- Кнопка CTA: Знайти борщ поруч -->
+          <div class="finallandingmob-mobile2">
+            <div class="finallandingmob-frame10032">
+              <div class="finallandingmob-frame7612">
+                <span class="finallandingmob-text140 LandingMobButton">
+                  Знайти борщ поруч
+                </span>
+              </div>
+            </div>
+          </div>
+          <!-- Розділ: Як це працює? -->
+          <span class="finallandingmob-text141 LandingMobh2">
+            Як це працює?
+          </span>
+          <!-- Схема роботи і візуалізація на телефоні -->
+          <div class="finallandingmob-group1000004179">
+            <div class="finallandingmob-group1000004162">
+              <div class="finallandingmob-feature3">
+                <div class="finallandingmob-shadow"></div>
+              </div>
+            </div>
+            <div class="finallandingmob-i-phone">
+              <div class="finallandingmob-container2">
+                <div
+                  class="finallandingmob-lbiq-dzjc-cbl1bfu-via-hk-ls-qkw-epng"
+                ></div>
+              </div>
+              <div class="finallandingmob-frame1090">
+                <img
+                  src="public/flow312966-9u75-200w.png"
+                  alt="flow312966"
+                  class="finallandingmob-flow31"
+                />
+                <img
+                  src="public/flow22966-0a3d-200w.png"
+                  alt="flow22966"
+                  class="finallandingmob-flow2"
+                />
+                <img
+                  src="public/flow112966-xazm-200w.png"
+                  alt="flow112966"
+                  class="finallandingmob-flow11"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="finallandingmob-card">
+            <div class="finallandingmob-png">
+              <div class="finallandingmob-ckrol">
+                <img
+                  src="public/ellipse2535i2966-ajho-200w.png"
+                  alt="Ellipse2535I2966"
+                  class="finallandingmob-ellipse2535"
+                />
+                <img
+                  src="public/ellipse2536i2966-f3er-200h.png"
+                  alt="Ellipse2536I2966"
+                  class="finallandingmob-ellipse2536"
+                />
+                <img
+                  src="public/ellipse2537i2966-otwh-200h.png"
+                  alt="Ellipse2537I2966"
+                  class="finallandingmob-ellipse2537"
+                />
+              </div>
+              <div class="finallandingmob-icons1">
+                <img
+                  src="public/iconsi2966-oo5g.svg"
+                  alt="iconsI2966"
+                  class="finallandingmob-icons2"
+                />
+                <img
+                  src="public/iconsi2966-8v7c.svg"
+                  alt="iconsI2966"
+                  class="finallandingmob-icons3"
+                />
+              </div>
+            </div>
+            <div class="finallandingmob-frame894">
+              <div class="finallandingmob-content">
+                <span class="finallandingmob-text142">
+                  Український борщ з чорним хлібом
+                </span>
+                <div class="finallandingmob-costand">
+                  <div class="finallandingmob-cost">
+                    <span class="finallandingmob-text143 mobilecaption">
+                      ≈245
+                    </span>
+                  </div>
+                  <span class="finallandingmob-text144 mobilecaption">
+                    400 g
+                  </span>
+                </div>
+                <div class="finallandingmob-ratescost">
+                  <div class="finallandingmob-rate2">
+                    <div class="finallandingmob-lsiconsoupfilled2">
+                      <div class="finallandingmob-group2">
+                        <img
+                          src="public/vectori2966-xwn7.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector12"
+                        />
+                        <img
+                          src="public/vectori2966-i448.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector13"
+                        />
+                      </div>
+                    </div>
+                    <div class="finallandingmob-lsiconsoupfilled3">
+                      <div class="finallandingmob-group4">
+                        <img
+                          src="public/vectori2966-lsl.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector14"
+                        />
+                        <img
+                          src="public/vectori2966-w94p.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector15"
+                        />
+                      </div>
+                    </div>
+                    <div class="finallandingmob-lsiconsoupfilled4">
+                      <div class="finallandingmob-group5">
+                        <img
+                          src="public/vectori2966-mqvi.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector16"
+                        />
+                        <img
+                          src="public/vectori2966-u6d8.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector17"
+                        />
+                      </div>
+                    </div>
+                    <div class="finallandingmob-lsiconsoupfilled5">
+                      <div class="finallandingmob-group6">
+                        <img
+                          src="public/vectori2966-672f.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector18"
+                        />
+                        <img
+                          src="public/vectori2966-cju.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector19"
+                        />
+                      </div>
+                    </div>
+                    <div class="finallandingmob-lsiconsoupfilled6">
+                      <div class="finallandingmob-group7">
+                        <img
+                          src="public/vectori2966-jwyx.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector20"
+                        />
+                        <img
+                          src="public/vectori2966-pq9p.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector21"
+                        />
+                      </div>
+                    </div>
+                    <div class="finallandingmob-lsiconsoupfilled7">
+                      <div class="finallandingmob-group8">
+                        <img
+                          src="public/vectori2966-jbso.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector22"
+                        />
+                        <img
+                          src="public/vectori2966-o1y.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector23"
+                        />
+                      </div>
+                    </div>
+                    <div class="finallandingmob-lsiconsoupfilled8">
+                      <div class="finallandingmob-group9">
+                        <img
+                          src="public/vectori2966-1wit.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector24"
+                        />
+                        <img
+                          src="public/vectori2966-787r.svg"
+                          alt="VectorI2966"
+                          class="finallandingmob-vector25"
+                        />
+                      </div>
+                    </div>
+                    <img
+                      src="public/lsiconsoupoutlinei2966-ahz9.svg"
+                      alt="lsiconsoupoutlineI2966"
+                      class="finallandingmob-lsiconsoupoutline1"
+                    />
+                    <img
+                      src="public/lsiconsoupoutlinei2966-y78.svg"
+                      alt="lsiconsoupoutlineI2966"
+                      class="finallandingmob-lsiconsoupoutline2"
+                    />
+                    <img
+                      src="public/lsiconsoupoutlinei2966-9jgh.svg"
+                      alt="lsiconsoupoutlineI2966"
+                      class="finallandingmob-lsiconsoupoutline3"
+                    />
+                  </div>
+                </div>
+              </div>
+              <div class="finallandingmob-frame982">
+                <div class="finallandingmob-iconandtext6">
+                  <img
+                    src="public/image1i2966-fn0i-200w.png"
+                    alt="image1I2966"
+                    class="finallandingmob-image1"
+                  />
+                  <span class="finallandingmob-text145">Диканька</span>
+                </div>
+                <div class="finallandingmob-icons4">
+                  <img
+                    src="public/mingcutemore2linei2966-v9ke.svg"
+                    alt="mingcutemore2lineI2966"
+                    class="finallandingmob-mingcutemore2line"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="finallandingmob-buttonandprogress">
+            <div class="finallandingmob-progressbar">
+              <div class="finallandingmob-slider1">
+                <img
+                  src="public/line1i2966-jnnv.svg"
+                  alt="Line1I2966"
+                  class="finallandingmob-line11"
+                />
+              </div>
+              <div class="finallandingmob-slider2">
+                <img
+                  src="public/line1i2966-063s.svg"
+                  alt="Line1I2966"
+                  class="finallandingmob-line12"
+                />
+              </div>
+              <div class="finallandingmob-slider3">
+                <img
+                  src="public/line1i2966-2fba.svg"
+                  alt="Line1I2966"
+                  class="finallandingmob-line13"
+                />
+              </div>
+            </div>
+          </button>
+          <span class="finallandingmob-text146 LandingMobbody">
+            Знаходь Борщі по Україні з інтерактивною мапою
+          </span>
+          <div class="finallandingmob-frame1114">
+            <img
+              src="public/svg12966-wqyp.svg"
+              alt="SVG12966"
+              class="finallandingmob-svg1"
+            />
+            <span class="finallandingmob-text147 LandingMobh3">Знаходь</span>
+          </div>
+          <span class="finallandingmob-text148">
+            <span class="finallandingmob-text149">
+              Разом із тими, хто любить
+            </span>
+            <span class="finallandingmob-text150"></span>
+            <span>Борщ</span>
+          </span>
+          <div class="finallandingmob-frame1104">
+            <img
+              src="public/arrowleft2966-vbjg.svg"
+              alt="arrowleft2966"
+              class="finallandingmob-arrowleft"
+            />
+            <img
+              src="public/arrowright2966-x1l.svg"
+              alt="arrowright2966"
+              class="finallandingmob-arrowright"
+            />
+          </div>
+          <!-- Карусель/стрічка Instagram-постів -->
+          <div class="finallandingmob-frame1166">
+            <div class="finallandingmob-frame1105">
+              <div class="finallandingmob-frame1103">
+                <div class="finallandingmob-photo-insta1">
+                  <div class="finallandingmob-top-profile1">
+                    <div class="finallandingmob-profiluser1">
+                      <img
+                        src="public/logo2966-puvd.svg"
+                        alt="Logo2966"
+                        class="finallandingmob-logo3"
+                      />
+                      <div class="finallandingmob-frame31">
+                        <span class="finallandingmob-text152">
+                          naverny_borshchu
+                        </span>
+                        <span class="finallandingmob-text153">Kyiv</span>
+                      </div>
+                    </div>
+                    <img
+                      src="public/threedots2966-8o7p.svg"
+                      alt="Threedots2966"
+                      class="finallandingmob-threedots"
+                    />
+                  </div>
+                  <div class="finallandingmob-img1">
+                    <div class="finallandingmob-image-feed1"></div>
+                  </div>
+                  <div class="finallandingmob-bottom-infos1">
+                    <div class="finallandingmob-icons5">
+                      <div class="finallandingmob-icon-container1">
+                        <div class="finallandingmob-left-picto1">
+                          <img
+                            src="public/heart2966-qu4z.svg"
+                            alt="Heart2966"
+                            class="finallandingmob-heart1"
+                          />
+                          <img
+                            src="public/comment2966-8nb.svg"
+                            alt="Comment2966"
+                            class="finallandingmob-comment1"
+                          />
+                          <div class="finallandingmob-share1">
+                            <img
+                              src="public/union2966-uq38.svg"
+                              alt="Union2966"
+                              class="finallandingmob-union3"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="finallandingmob-bulletpoint1">
+                        <img
+                          src="public/ellipse672966-nzp-200h.png"
+                          alt="Ellipse672966"
+                          class="finallandingmob-ellipse671"
+                        />
+                        <img
+                          src="public/ellipse662966-6r04-200w.png"
+                          alt="Ellipse662966"
+                          class="finallandingmob-ellipse661"
+                        />
+                        <img
+                          src="public/ellipse682966-i266-200w.png"
+                          alt="Ellipse682966"
+                          class="finallandingmob-ellipse681"
+                        />
+                        <img
+                          src="public/ellipse692966-c5814-200h.png"
+                          alt="Ellipse692966"
+                          class="finallandingmob-ellipse691"
+                        />
+                      </div>
+                      <img
+                        src="public/bookmark2966-m7us.svg"
+                        alt="Bookmark2966"
+                        class="finallandingmob-bookmark"
+                      />
+                    </div>
+                    <span class="finallandingmob-text154">
+                      Дегустація 100 Борщу! 🌟
+                    </span>
+                    <div class="finallandingmob-comments1">
+                      <span class="finallandingmob-text155">
+                        <span class="finallandingmob-text156">
+                          Разом із командою завітали до
+                        </span>
+                        <span class="finallandingmob-text157">
+                          Євгена Клопотенка
+                        </span>
+                        <span class="finallandingmob-text158">
+                          в ресторан «100 років тому вперед» на дегустацію
+                          нашого 100-го Борщу!
+                        </span>
+                        <span>#Борщ</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="finallandingmob-photo-insta2">
+                  <div class="finallandingmob-top-profile2">
+                    <div class="finallandingmob-profiluser2">
+                      <img
+                        src="public/logo2966-09jf.svg"
+                        alt="Logo2966"
+                        class="finallandingmob-logo4"
+                      />
+                      <div class="finallandingmob-frame32">
+                        <span class="finallandingmob-text160">
+                          naverny_borshchu
+                        </span>
+                        <span class="finallandingmob-text161">
+                          Хмельницький
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-img2">
+                    <div class="finallandingmob-image-feed2"></div>
+                  </div>
+                  <div class="finallandingmob-bottom-infos2">
+                    <div class="finallandingmob-icons6">
+                      <div class="finallandingmob-icon-container2">
+                        <div class="finallandingmob-left-picto2">
+                          <img
+                            src="public/heart2966-zyr8.svg"
+                            alt="Heart2966"
+                            class="finallandingmob-heart2"
+                          />
+                          <img
+                            src="public/comment2966-w4iw.svg"
+                            alt="Comment2966"
+                            class="finallandingmob-comment2"
+                          />
+                          <div class="finallandingmob-share2">
+                            <img
+                              src="public/union2966-19tj.svg"
+                              alt="Union2966"
+                              class="finallandingmob-union4"
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="finallandingmob-bulletpoint2">
+                        <img
+                          src="public/ellipse672966-6m4m-200h.png"
+                          alt="Ellipse672966"
+                          class="finallandingmob-ellipse672"
+                        />
+                        <img
+                          src="public/ellipse662966-v1k9-200h.png"
+                          alt="Ellipse662966"
+                          class="finallandingmob-ellipse662"
+                        />
+                        <img
+                          src="public/ellipse682966-ztw-200h.png"
+                          alt="Ellipse682966"
+                          class="finallandingmob-ellipse682"
+                        />
+                        <img
+                          src="public/ellipse692966-zicq-200h.png"
+                          alt="Ellipse692966"
+                          class="finallandingmob-ellipse692"
+                        />
+                      </div>
+                    </div>
+                    <span class="finallandingmob-text162">
+                      “Наверни борщу” в ресторації Шпигеля, Хмельницький
+                    </span>
+                    <div class="finallandingmob-comments2">
+                      <span class="finallandingmob-text163">
+                        <span class="finallandingmob-text164">
+                          Цього разу ми завітали до ресторації Шпигеля, щоб
+                          протестувати їхній борщ. Чи стане він фаворитом
+                          нашогогастротуру?
+                        </span>
+                        <span class="finallandingmob-text165">
+                          #Хмельницький
+                        </span>
+                        <span class="finallandingmob-text166">&nbsp;</span>
+                        <span class="finallandingmob-text167">
+                          #УкраїнськаКухня&nbsp;
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="finallandingmob-photo-insta3">
+                  <div class="finallandingmob-top-profile3">
+                    <div class="finallandingmob-profiluser3">
+                      <div class="finallandingmob-frame33">
+                        <span class="finallandingmob-text168">
+                          naverny_borshchu
+                        </span>
+                        <span class="finallandingmob-text169">
+                          Бессарабська площа
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-img3">
+                    <div class="finallandingmob-image-feed3"></div>
+                  </div>
+                  <div class="finallandingmob-bottom-infos3">
+                    <div class="finallandingmob-icons7">
+                      <div class="finallandingmob-icon-container3">
+                        <div class="finallandingmob-left-picto3">
+                          <div class="finallandingmob-share3"></div>
+                        </div>
+                      </div>
+                      <div class="finallandingmob-bulletpoint3">
+                        <img
+                          src="public/ellipse672966-d9ar-200h.png"
+                          alt="Ellipse672966"
+                          class="finallandingmob-ellipse673"
+                        />
+                        <img
+                          src="public/ellipse662966-ajm-200h.png"
+                          alt="Ellipse662966"
+                          class="finallandingmob-ellipse663"
+                        />
+                        <img
+                          src="public/ellipse682966-legm-200h.png"
+                          alt="Ellipse682966"
+                          class="finallandingmob-ellipse683"
+                        />
+                        <img
+                          src="public/ellipse692966-5s5-200h.png"
+                          alt="Ellipse692966"
+                          class="finallandingmob-ellipse693"
+                        />
+                      </div>
+                    </div>
+                    <span class="finallandingmob-text170">
+                      Борщ, зварений на качиному бульйоні з вишнею
+                    </span>
+                    <div class="finallandingmob-comments3">
+                      <span class="finallandingmob-text171">
+                        <span class="finallandingmob-text172">
+                          Особливості | Найперше, варто відзначити неймовірно
+                          гарну подачу Борщу, яка привертає увагу своєю
+                          оригінальністю.
+                        </span>
+                        <span>#Proud</span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+                <div class="finallandingmob-photo-insta4">
+                  <div class="finallandingmob-top-profile4">
+                    <div class="finallandingmob-profiluser4">
+                      <div class="finallandingmob-frame34">
+                        <span class="finallandingmob-text174">
+                          naverny_borshchu
+                        </span>
+                        <span class="finallandingmob-text175">«Витач»</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-img4">
+                    <div class="finallandingmob-image-feed4"></div>
+                  </div>
+                  <div class="finallandingmob-bottom-infos4">
+                    <div class="finallandingmob-icons8">
+                      <div class="finallandingmob-icon-container4">
+                        <div class="finallandingmob-left-picto4">
+                          <div class="finallandingmob-share4"></div>
+                        </div>
+                      </div>
+                      <div class="finallandingmob-bulletpoint4">
+                        <img
+                          src="public/ellipse672966-f1qz-200h.png"
+                          alt="Ellipse672966"
+                          class="finallandingmob-ellipse674"
+                        />
+                        <img
+                          src="public/ellipse662966-sb1i-200h.png"
+                          alt="Ellipse662966"
+                          class="finallandingmob-ellipse664"
+                        />
+                        <img
+                          src="public/ellipse682966-yv6-200h.png"
+                          alt="Ellipse682966"
+                          class="finallandingmob-ellipse684"
+                        />
+                        <img
+                          src="public/ellipse692966-ld-200h.png"
+                          alt="Ellipse692966"
+                          class="finallandingmob-ellipse694"
+                        />
+                      </div>
+                    </div>
+                    <span class="finallandingmob-text176">
+                      Борщ на карасях!
+                    </span>
+                    <div class="finallandingmob-comments4">
+                      <span class="finallandingmob-text177">
+                        Це наш візит в народжену під час війни крафтову пекарню
+                        «Витач», що є місцем сили, яке можна відвідати у
+                        будь-яку пору року!
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Місія проєкту (текстовий блок) -->
+          <div class="finallandingmob-frame1107">
+            <span class="finallandingmob-text178">
+              <span class="finallandingmob-text179">Наша місія</span>
+              <span>
+                - об’єднувати людей навколо любові до борщу та зберігати
+                культуру його куштування в закладах по всьому світу.
+              </span>
+              <br />
+              <span>
+                Ми надихаємо історіями, смаками та відкриттями, від відомих
+                ресторанів до прихованих місць, де можна неочікувано знайти
+                смачний борщ.
+              </span>
+              <br />
+              <span></span>
+              <br />
+              <span>
+                Ми створюємо простір, де борщ пробуджує справжню емоцію
+                українськості.
+              </span>
+            </span>
+          </div>
+          <!-- Instagram callout: акаунт та іконка -->
+          <div class="finallandingmob-frame1165">
+            <img
+              src="public/borschscoop2966-sf7q.svg"
+              alt="Borschscoop2966"
+              class="finallandingmob-borschscoop"
+            />
+            <div class="finallandingmob-frame1109">
+              <img
+                src="public/instagram12966-wgox.svg"
+                alt="instagram12966"
+                class="finallandingmob-instagram1"
+              />
+              <span class="finallandingmob-text187">naverny_borshchu</span>
+            </div>
+          </div>
+          <img
+            src="public/left2966-u6il-200w.png"
+            alt="left2966"
+            class="finallandingmob-left1"
+          />
+          <!-- Команда: учасники та ролі -->
+          <div class="finallandingmob-frame1164">
+            <span class="finallandingmob-text188">
+              <span class="finallandingmob-text189">Люди, що живуть</span>
+              <span class="finallandingmob-text190"></span>
+              <span>Борщем</span>
+            </span>
+            <div class="finallandingmob-frame1">
+              <div class="finallandingmob-frame4">
+                <img
+                  src="public/placeholder2966-roi-200h.png"
+                  alt="Placeholder2966"
+                  class="finallandingmob-placeholder1"
+                />
+                <div class="finallandingmob-frame10911">
+                  <span class="finallandingmob-text192 mobilefootnote">
+                    Ім’я Прізвище
+                  </span>
+                  <span class="finallandingmob-text193 mobilecaption">
+                    роль
+                  </span>
+                </div>
+              </div>
+              <div class="finallandingmob-frame5">
+                <img
+                  src="public/placeholder2966-hwm-200h.png"
+                  alt="Placeholder2966"
+                  class="finallandingmob-placeholder2"
+                />
+                <div class="finallandingmob-frame10912">
+                  <span class="finallandingmob-text194 mobilefootnote">
+                    Ім’я Прізвище
+                  </span>
+                  <span class="finallandingmob-text195 mobilecaption">
+                    роль
+                  </span>
+                </div>
+              </div>
+              <div class="finallandingmob-frame6">
+                <img
+                  src="public/placeholder2966-xjr-200h.png"
+                  alt="Placeholder2966"
+                  class="finallandingmob-placeholder3"
+                />
+                <div class="finallandingmob-frame10913">
+                  <span class="finallandingmob-text196">Ім’я Прізвище</span>
+                  <span class="finallandingmob-text197">роль</span>
+                </div>
+              </div>
+              <div class="finallandingmob-frame7">
+                <img
+                  src="public/placeholder2966-ppks-200h.png"
+                  alt="Placeholder2966"
+                  class="finallandingmob-placeholder4"
+                />
+                <div class="finallandingmob-frame10914">
+                  <span class="finallandingmob-text198">Ім’я Прізвище</span>
+                  <span class="finallandingmob-text199">роль</span>
+                </div>
+              </div>
+              <img
+                src="public/left2966-9yyw-200w.png"
+                alt="left2966"
+                class="finallandingmob-left2"
+              />
+            </div>
+          </div>
+          <!-- Контакти: форма з ім'ям, поштою та повідомленням -->
+          <div class="finallandingmob-frame1140">
+            <div class="finallandingmob-frame1102">
+              <div class="finallandingmob-frame1097">
+                <span class="finallandingmob-text200 LandingMobh3">
+                  Маєте питання чи пропозиції?
+                </span>
+                <span class="finallandingmob-text201 LandingMobbody">
+                  Напишіть нам, і ми обов'язково розглянемо ваші ідеї!
+                </span>
+              </div>
+              <div class="finallandingmob-frame1101">
+                <div class="finallandingmob-frame1100">
+                  <div class="finallandingmob-input1">
+                    <div class="finallandingmob-frame7741">
+                      <div class="finallandingmob-input-area1">
+                        <div class="finallandingmob-frame8551"></div>
+                      </div>
+                      <div class="finallandingmob-title1">
+                        <span class="finallandingmob-text202">Ім’я *</span>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="finallandingmob-input2">
+                    <div class="finallandingmob-frame7742">
+                      <div class="finallandingmob-input-area2">
+                        <div class="finallandingmob-frame8552"></div>
+                      </div>
+                      <div class="finallandingmob-title2">
+                        <span class="finallandingmob-text203">Пошта *</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="finallandingmob-input3">
+                  <div class="finallandingmob-frame7743">
+                    <div class="finallandingmob-input-area3">
+                      <div class="finallandingmob-frame8553"></div>
+                    </div>
+                    <div class="finallandingmob-title3">
+                      <span class="finallandingmob-text204">
+                        Повідомлення *
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="finallandingmob-mobile3">
+                <div class="finallandingmob-frame10033">
+                  <div class="finallandingmob-frame7613">
+                    <span class="finallandingmob-text205 LandingMobButton">
+                      Надіслати
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="finallandingmob-group24">
+              <div class="finallandingmob-maskgroup">
+                <img
+                  src="public/group102966-hof.svg"
+                  alt="Group102966"
+                  class="finallandingmob-group10"
+                />
+              </div>
+              <img
+                src="public/vector2292966-428m.svg"
+                alt="Vector2292966"
+                class="finallandingmob-vector229"
+              />
+            </div>
+          </div>
+          <!-- Футер: навігація, політики та соцмережі -->
+          <div class="finallandingmob-footer">
+            <div class="finallandingmob-frame1088">
+              <span class="finallandingmob-text206 mobilefootnote">
+                Про додаток
+              </span>
+              <span class="finallandingmob-text207 mobilefootnote">
+                Колаборації
+              </span>
+              <span class="finallandingmob-text208 mobilefootnote">
+                Як це працює
+              </span>
+              <span class="finallandingmob-text209 mobilefootnote">
+                Команда
+              </span>
+            </div>
+            <div class="finallandingmob-frame1111">
+              <span class="finallandingmob-text210 mobilecaption">
+                Terms &amp; Conditions
+              </span>
+              <span class="finallandingmob-text211 mobilecaption">
+                Privacy Policy
+              </span>
+              <span class="finallandingmob-text212 mobilecaption">
+                Cookie Policy
+              </span>
+            </div>
+            <div class="finallandingmob-frame1142">
+              <img
+                src="public/logo2966-i7f.svg"
+                alt="Logo2966"
+                class="finallandingmob-logo5"
+              />
+              <div class="finallandingmob-frame1089">
+                <span class="finallandingmob-text213 LandingMobfootnote">
+                  navernyborshchu@gmail.com
+                </span>
+                <div class="finallandingmob-frame1141">
+                  <img
+                    src="public/linkedin25049232966-mmfi.svg"
+                    alt="linkedin25049232966"
+                    class="finallandingmob-linkedin2504923"
+                  />
+                  <img
+                    src="public/instagram25049182966-e2n.svg"
+                    alt="instagram25049182966"
+                    class="finallandingmob-instagram2504918"
+                  />
+                  <div class="finallandingmob-tiktok2504942">
+                    <div class="finallandingmob-group11">
+                      <img
+                        src="public/vector2966-4i38.svg"
+                        alt="Vector2966"
+                        class="finallandingmob-vector26"
+                      />
+                      <img
+                        src="public/vector2966-0yv.svg"
+                        alt="Vector2966"
+                        class="finallandingmob-vector27"
+                      />
+                      <img
+                        src="public/vector2966-3pha.svg"
+                        alt="Vector2966"
+                        class="finallandingmob-vector28"
+                      />
+                      <img
+                        src="public/vector2966-9umj.svg"
+                        alt="Vector2966"
+                        class="finallandingmob-vector29"
+                      />
+                      <img
+                        src="public/vector2966-h52x.svg"
+                        alt="Vector2966"
+                        class="finallandingmob-vector30"
+                      />
+                      <img
+                        src="public/vector2966-btg.svg"
+                        alt="Vector2966"
+                        class="finallandingmob-vector31"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script>
+      // Responsive scaler
+      // - Keeps the 375px-wide design canvas proportional to viewport width
+      // - Centers canvas and updates container height to preserve vertical scroll
+      (function () {
+        function applyScale() {
+          var baseW = 375;
+          var baseH = 5129;
+          var vw = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+          var scale = Math.min(vw / baseW, 1); // downscale on small screens, don't upscale on large
+          var root = document.documentElement;
+          root.style.setProperty('--scale', scale);
+          var wrap = document.querySelector('.finallandingmob-container1');
+          var page = document.querySelector('.finallandingmob-finallandingmob');
+          if (wrap && page) {
+            page.style.transform = 'translateX(-50%) scale(' + scale + ')';
+            wrap.style.height = Math.ceil(baseH * scale) + 'px';
+          }
+        }
+        window.addEventListener('resize', applyScale);
+        window.addEventListener('orientationchange', applyScale);
+        document.addEventListener('DOMContentLoaded', applyScale);
+        applyScale();
+      })();
+
+      // Режим автокоментування HTML (додає коментарі перед КОЖНИМ елементом із class або id)
+      // Увімкнути/вимкнути: встановіть true/false
+      (function enableAutoComments() {
+        var ENABLE_COMMENTS = false; // <-- перемикач режиму коментарів (вимкнено)
+        if (!ENABLE_COMMENTS) return;
+
+        // Працюємо тільки всередині «полотна» сторінки
+        var root = document.querySelector('.finallandingmob-finallandingmob');
+        if (!root) return;
+
+        // Ітерація по всіх нащадках
+        var walker = document.createTreeWalker(root, NodeFilter.SHOW_ELEMENT, null);
+        var toAnnotate = [];
+        while (walker.nextNode()) {
+          var el = walker.currentNode;
+          if (!(el instanceof Element)) continue;
+          var hasClass = el.getAttribute('class');
+          var hasId = el.getAttribute('id');
+          if (hasClass || hasId || el.tagName.toLowerCase() === 'div') {
+            toAnnotate.push(el);
+          }
+        }
+
+        toAnnotate.forEach(function (el) {
+          var parts = [];
+          var tag = el.tagName.toLowerCase();
+          if (tag) parts.push('Тег: ' + tag);
+          var id = el.getAttribute('id');
+          if (id) parts.push('id: #' + id);
+          var className = el.getAttribute('class');
+          if (className) parts.push('класи: .' + className.split(/\s+/).join(' .'));
+          var text = 'Елемент (' + parts.join('; ') + ')';
+          var comment = document.createComment(' ' + text + ' ');
+          if (el.parentNode) {
+            el.parentNode.insertBefore(comment, el);
+          }
+        });
+      })();
+    </script>
+  </body>
+</html>
